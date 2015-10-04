@@ -1,0 +1,2 @@
+
+: foreach src/*.coffee |> cat "%f" | node_modules/.bin/coffee -bcs --no-header > "%o" |> dist/%B.js
