@@ -1,2 +1,2 @@
 module.exports.loop = ->
-	console.log 'hi'
+	console.log "CPU Limit: #{Game.cpuLimit} | Counter: #{Game.time} | Used: #{Game.getUsedCpu()}"
